@@ -1,0 +1,14 @@
+
+#include<iostream> 
+#include<algorithm> 
+using namespace std; 
+bool comp(int a, int b) 
+{ 
+return (a < b); 
+} 
+
+int main() 
+{ 
+cout << std::max({1, 2, 3, 4, 5, 10, -1, 7},comp) << "\n"; 
+return 0; 
+}
